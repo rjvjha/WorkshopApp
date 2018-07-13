@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/login_action"
+        android:title="@string/login_action_string"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/signup_action"
+        android:title="@string/signup_action_string"
+        android:orderInCategory="2"
+        />
+    <item android:id="@+id/available_workshop_action"
+        android:title="@string/available_workshop_action_string"
+        android:orderInCategory="3"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/dashboard_action"
+        android:title="@string/dashboard_action_string"
+        android:orderInCategory="4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/logout_action"
+        android:title="@string/logout_action_string"
+        app:showAsAction="never"
+        android:orderInCategory="5"/>
+
+</menu>

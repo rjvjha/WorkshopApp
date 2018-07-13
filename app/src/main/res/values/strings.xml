@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Workshop</string>
+
+    <!-- String res values for options Menu-->
+    <string name="login_action_string">Login</string>
+    <string name="signup_action_string">Sign up</string>
+    <string name="logout_action_string">Logout</string>
+    <string name="available_workshop_action_string">Available Workshops</string>
+    <string name="dashboard_action_string">Dashboard</string>
+
+    <!-- String res values for LoginScreenFragment-->
+    <string name="login_screen_headline">Login to Workshop</string>
+    <string name="username_hint_edit_text">User name</string>
+    <string name="password_hint_edit_text">Password</string>
+    <string name="login_label_button">Login</string>
+    <string name="SignUp_label_button">New user! SignUp</string>
+    <string name="failed_attempt_feedback">Incorrect user name or password!\t Try again</string>
+
+    <!-- String res values for SignupScreenFragment-->
+    <string name="signup_screen_headline">Register</string>
+    <string name="name_hint_edit_text">Your name</string>
+    <string name="user_name_hint_edit_text">Username</string>
+    <string name="email_hint_edit_text">Email</string>
+    <string name="password1_hint_edit_text">Choose a password</string>
+    <string name="password2_hint_edit_text">Confirm password</string>
+    <string name="signup_text_button">Sign up</string>
+    <string name="reset_text_button">Reset</string>
+    <string name="passwords_mismatch_feedback">Typed passwords mismatch!\t Try again</string>
+    <string name="missing_info_feedback">Please fill the required fields correctly.</string>
+    <string name="success_registration_feedback">Registration successful!</string>
+
+    <!-- String res values for DashboardScreenFragment-->
+    <string name="dashboard_screen_headline">Welcome!</string>
+    <string name="caption_text">Workshops you have applied appear here.</string>
+    <string name="dummy_descp_text">This workshop focuses on how to use Android OS for building your
+        own Android Application. Only the basic knowledge of programming is required for Android App Development,
+        you do not have to be a geek for it! The workshop will start from the basics like designing layouts and
+        building complex layouts. Once the basics of Android are done we will begin with building Apps.</string>
+    <string name="apply_text_button">Apply</string>
+    <string name="applied_text_button">Applied</string>
+
+
+</resources>
